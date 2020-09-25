@@ -6,6 +6,7 @@ import java.net.URL;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import ru.itis.app.Downloader;
+import ru.itis.app.Args;
 
 public class Main {
     public static void main(String... argv) {
