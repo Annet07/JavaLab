@@ -1,0 +1,10 @@
+ru\itis\javalab\services\UsersServiceImpl.class
+ru\itis\javalab\models\User.class
+ru\itis\javalab\servlets\UsersServlet.class
+ru\itis\javalab\repositories\UsersRepositoryJdbcImpl.class
+ru\itis\javalab\models\User$UserBuilder.class
+ru\itis\javalab\services\UsersService.class
+ru\itis\javalab\repositories\UsersRepository.class
+ru\itis\javalab\repositories\SimpleJdbcTemplate.class
+ru\itis\javalab\repositories\CrudRepository.class
+ru\itis\javalab\repositories\RowMapper.class

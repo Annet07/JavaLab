@@ -1,0 +1,9 @@
+D:\JavaLab\04.WebApplication\src\main\java\ru\itis\javalab\repositories\SimpleJdbcTemplate.java
+D:\JavaLab\04.WebApplication\src\main\java\ru\itis\javalab\repositories\UsersRepository.java
+D:\JavaLab\04.WebApplication\src\main\java\ru\itis\javalab\repositories\CrudRepository.java
+D:\JavaLab\04.WebApplication\src\main\java\ru\itis\javalab\services\UsersService.java
+D:\JavaLab\04.WebApplication\src\main\java\ru\itis\javalab\services\UsersServiceImpl.java
+D:\JavaLab\04.WebApplication\src\main\java\ru\itis\javalab\repositories\UsersRepositoryJdbcImpl.java
+D:\JavaLab\04.WebApplication\src\main\java\ru\itis\javalab\models\User.java
+D:\JavaLab\04.WebApplication\src\main\java\ru\itis\javalab\repositories\RowMapper.java
+D:\JavaLab\04.WebApplication\src\main\java\ru\itis\javalab\servlets\UsersServlet.java
