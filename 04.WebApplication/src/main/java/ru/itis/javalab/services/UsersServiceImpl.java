@@ -14,7 +14,22 @@ public class UsersServiceImpl implements UsersService{
     }
 
     @Override
+    public void save(User user) {
+        usersRepository.save(user);
+    }
+
+    @Override
     public List<User> getAllUsers() {
         return usersRepository.findAll();
+    }
+
+    @Override
+    public User findByCookie(String cookie) {
+        return usersRepository.getByCookie(cookie);
+    }
+
+    @Override
+    public String checkUser(String login, String password) {
+        return usersRepository.checkUserLogAndPas(login,password);
     }
 }

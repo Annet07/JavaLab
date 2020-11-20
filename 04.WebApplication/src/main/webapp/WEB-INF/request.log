@@ -1,0 +1,293 @@
+2020-11-19 00:17:05,485 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 00:17:05,790 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 00:17:06,277 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:17:06,282 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:17:06,419 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:17:14,058 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:18:37,031 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 00:18:37,220 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 00:18:37,341 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:18:37,348 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:18:37,466 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:18:44,678 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:19:48,963 [http-nio-8080-exec-10] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:23:57,497 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 00:23:57,692 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 00:23:57,803 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:23:57,810 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:23:57,968 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:24:03,464 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:24:22,198 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - 
+2020-11-19 00:25:51,887 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 00:25:52,084 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 00:25:52,624 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 00:25:52,632 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 00:25:52,740 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 00:26:08,282 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /users
+2020-11-19 00:39:26,073 [http-nio-8080-exec-8] INFO   ru.itis.javalab.logs.MyLogger - /users
+2020-11-19 11:13:35,952 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h12m43s692ms497탎600ns).
+2020-11-19 14:09:42,281 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m35s974ms521탎400ns).
+2020-11-19 14:23:35,287 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 14:23:35,866 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 14:23:36,795 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:23:36,810 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:23:37,132 [http-nio-8080-exec-10] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:23:46,386 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 14:25:13,337 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /users
+2020-11-19 14:25:26,996 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 14:31:38,905 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 14:31:39,493 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 14:31:39,914 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:31:39,929 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:31:40,267 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:31:51,097 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 14:32:52,888 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 14:32:53,267 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 14:32:53,573 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:32:53,597 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:32:53,848 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:33:06,528 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 14:34:48,010 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 14:34:48,366 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 14:34:48,793 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:34:48,829 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:34:49,032 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:34:56,777 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 14:40:29,342 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 14:40:29,897 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 14:40:30,433 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:40:30,445 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:40:30,624 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:40:37,110 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 14:41:23,218 [http-nio-8080-exec-8] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 14:42:55,647 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m14s144ms55탎400ns).
+2020-11-19 14:50:12,199 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 14:50:12,644 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 14:50:13,196 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:50:13,208 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:50:13,529 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 14:50:31,100 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 14:51:41,632 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 14:53:59,091 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m5s798ms403탎100ns).
+2020-11-19 14:54:46,770 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s679ms470탎500ns).
+2020-11-19 16:42:06,360 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 16:42:07,035 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 16:42:07,749 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 16:42:07,780 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 16:42:08,058 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 16:42:14,798 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 17:13:45,713 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 17:13:46,264 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 17:13:46,549 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 17:13:46,560 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 17:13:46,885 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 17:16:54,974 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 23:55:09,892 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-19 23:55:10,108 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-19 23:55:10,582 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 23:55:10,591 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 23:55:10,892 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-19 23:55:11,004 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /favicon.ico
+2020-11-19 23:55:18,389 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 23:55:29,033 [http-nio-8080-exec-10] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 23:55:35,982 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-19 23:55:40,683 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-19 23:55:49,496 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-19 23:55:58,592 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-19 23:57:10,118 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 23:58:32,424 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-19 23:58:32,437 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 00:01:25,824 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 00:01:55,070 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 00:01:55,080 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 00:02:28,124 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 00:02:28,327 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 00:02:28,820 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 00:02:28,828 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 00:02:28,959 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 00:02:40,356 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 00:02:45,570 [http-nio-8080-exec-10] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 00:02:48,421 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 00:16:38,914 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 00:16:39,116 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 00:16:39,650 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 00:16:39,658 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 00:16:39,786 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 00:16:46,920 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 00:16:52,173 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 00:17:03,192 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 00:17:15,162 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 00:17:50,012 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 10:52:28,389 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 10:52:28,895 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 10:52:29,463 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:52:29,477 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:52:29,872 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:52:30,029 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /favicon.ico
+2020-11-20 10:52:38,032 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 10:53:35,357 [http-nio-8080-exec-10] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 10:53:35,408 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 10:55:22,496 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 10:55:22,994 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 10:55:23,567 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:55:23,580 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:55:23,840 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:55:34,979 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:55:40,655 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 10:56:16,035 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 10:56:46,611 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s546ms649탎500ns).
+2020-11-20 10:58:11,427 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m29s782ms208탎500ns).
+2020-11-20 10:58:11,500 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 10:58:32,874 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 10:58:33,419 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 10:58:34,218 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:58:34,244 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:58:34,607 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 10:58:39,828 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 10:58:53,103 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 10:59:15,530 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 11:01:31,804 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:01:32,371 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:01:33,207 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:01:33,242 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:01:33,571 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:01:41,398 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 11:02:05,055 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 11:04:01,230 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:05:21,155 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:05:21,654 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:05:21,923 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:05:21,950 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:05:22,125 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:05:28,143 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:05:34,095 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 11:05:38,220 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:05:52,267 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:11:55,330 [RMI TCP Connection(4)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:11:55,913 [RMI TCP Connection(4)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:11:56,613 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:11:56,644 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:11:56,827 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:12:04,291 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 11:12:09,231 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:12:30,374 [http-nio-8080-exec-8] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:12:30,500 [http-nio-8080-exec-10] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:15:24,428 [RMI TCP Connection(4)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:15:24,935 [RMI TCP Connection(4)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:15:25,604 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:15:25,631 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:15:25,928 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:15:44,939 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:16:29,342 [http-nio-8080-exec-8] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:17:12,620 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s580ms50탎800ns).
+2020-11-20 11:19:48,400 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m35s781ms518탎600ns).
+2020-11-20 11:19:58,425 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:22:19,335 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:22:19,902 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:22:20,224 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:22:20,242 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:22:20,532 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:23:15,407 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:23:53,438 [http-nio-8080-exec-10] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:23:53,520 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:24:42,387 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:24:42,754 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:24:43,418 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:24:43,438 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:24:43,747 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:24:54,929 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:25:25,597 [http-nio-8080-exec-8] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:27:01,326 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:27:44,007 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:27:44,692 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:27:45,354 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:27:45,368 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:27:45,545 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:27:56,984 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:28:26,999 [http-nio-8080-exec-8] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:29:01,239 [HikariPool-1 housekeeper] WARN   com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s436ms670탎300ns).
+2020-11-20 11:29:01,262 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:30:53,351 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:30:53,827 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:30:54,492 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:30:54,505 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:30:54,655 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:31:16,008 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /signUp
+2020-11-20 11:31:24,291 [http-nio-8080-exec-8] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:32:00,426 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:32:00,566 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:32:24,350 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:40:36,862 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:40:37,346 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:40:37,693 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:40:37,703 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:40:37,872 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:40:48,348 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:40:55,671 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:40:55,688 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:41:09,241 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:41:13,021 [http-nio-8080-exec-10] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:41:13,036 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:41:28,637 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:47:09,415 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:47:09,949 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:47:10,510 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:47:10,520 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:47:10,713 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:47:22,084 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:47:26,961 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:47:26,995 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:47:32,751 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:52:14,587 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:52:15,225 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:52:15,595 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:52:15,620 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:52:15,924 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:52:24,010 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:52:28,688 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:52:28,707 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 11:52:37,901 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 11:58:34,436 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 11:58:35,001 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 11:58:35,313 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:58:35,334 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:58:35,587 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 11:58:43,774 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:01:21,310 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 12:01:21,910 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 12:01:22,459 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:01:22,480 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:01:22,761 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:02:01,463 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:02:19,881 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:03:42,388 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 12:03:42,934 [RMI TCP Connection(3)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 12:03:43,353 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:03:43,365 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:03:43,635 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:03:50,837 [http-nio-8080-exec-8] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:09:59,528 [RMI TCP Connection(4)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 12:10:00,064 [RMI TCP Connection(4)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 12:10:00,340 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:10:00,361 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:10:00,629 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:10:06,236 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:10:12,414 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:10:12,434 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 12:10:17,659 [http-nio-8080-exec-7] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:11:53,683 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 12:11:54,179 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 12:11:54,632 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:11:54,654 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:11:54,853 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:12:01,847 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:12:31,375 [http-nio-8080-exec-8] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:12:31,402 [http-nio-8080-exec-9] INFO   ru.itis.javalab.logs.MyLogger - /signIn
+2020-11-20 12:14:18,612 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-11-20 12:14:19,105 [RMI TCP Connection(2)-127.0.0.1] INFO   com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-11-20 12:14:19,810 [http-nio-8080-exec-1] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:14:19,843 [http-nio-8080-exec-2] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:14:20,106 [http-nio-8080-exec-3] INFO   ru.itis.javalab.logs.MyLogger - /
+2020-11-20 12:14:25,672 [http-nio-8080-exec-4] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:14:33,878 [http-nio-8080-exec-5] INFO   ru.itis.javalab.logs.MyLogger - /profile
+2020-11-20 12:14:33,899 [http-nio-8080-exec-6] INFO   ru.itis.javalab.logs.MyLogger - /signIn

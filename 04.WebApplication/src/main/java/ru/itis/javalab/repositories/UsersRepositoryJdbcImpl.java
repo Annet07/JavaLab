@@ -1,6 +1,7 @@
 package ru.itis.javalab.repositories;
 
 import ru.itis.javalab.models.User;
+
 import javax.sql.DataSource;
 import java.util.List;
 import java.util.Optional;
@@ -8,10 +9,21 @@ import java.util.Optional;
 public class UsersRepositoryJdbcImpl implements UsersRepository{
 
     //language=SQL
-    private static final String SQL_FIND_ALL = "select * from student";
+    private static final String SQL_FIND_ALL = "select * from users";
 
     //language=SQL
-    private static final String SQL_FIND_ALL_BY_AGE = "select * from student where age = ?";
+    private static final String SQL_FIND_ALL_BY_AGE = "select * from users where age = ?";
+
+    //language=SQL
+    private static final String SQL_INSERT_USER = "insert into USERS(name, surname, age, aboutMe, login, password, cookie)" +
+            " values(?, ?, ?, ?, ?, ?, ?)";
+
+    //language=SQL
+    private static final String SQL_FIND_BY_COOKIE = "select * from USERS where cookie = ?";
+
+    //language=SQL
+    private static final String SQL_FIND_BY_LOGIN_AND_PASSWORD = "select * from USERS where login = ? and password = ?";
+
     private SimpleJdbcTemplate<User> template;
 
     public UsersRepositoryJdbcImpl(DataSource dataSource) {
@@ -19,16 +31,19 @@ public class UsersRepositoryJdbcImpl implements UsersRepository{
     }
 
     private RowMapper<User> userRowMapper = row -> User.builder()
-            .id(row.getLong("id"))
-            .firstName(row.getString("first_name"))
-            .lastName(row.getString("last_name"))
+            .name(row.getString("name"))
+            .surname(row.getString("surname"))
             .age(row.getInt("age"))
+            .aboutMe(row.getString("aboutMe"))
+            .login(row.getString("login"))
+            .password(row.getString("password"))
+            .cookie(row.getString("cookie"))
             .build();
 
 
     @Override
-    public void save(User entity) {
-
+    public void save(User user) {
+        template.execute(SQL_INSERT_USER, user.getName(), user.getSurname(), user.getAge(), user.getAboutMe(), user.getLogin(), user.getPassword(), user.getCookie());
     }
 
     @Override
@@ -58,4 +73,16 @@ public class UsersRepositoryJdbcImpl implements UsersRepository{
         return template.query(SQL_FIND_ALL_BY_AGE, userRowMapper, age);
 
     }
+
+    @Override
+    public User getByCookie(String cookie) {
+        return template.query(SQL_FIND_BY_COOKIE, userRowMapper,cookie).get(0);
+    }
+
+    @Override
+    public String checkUserLogAndPas(String login, String password) {
+        return template.query(SQL_FIND_BY_LOGIN_AND_PASSWORD, userRowMapper,login, password).get(0).getCookie();
+    }
+
+
 }

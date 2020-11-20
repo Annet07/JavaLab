@@ -1,15 +1,17 @@
 package ru.itis.javalab.models;
 
 import lombok.*;
-
+@Builder
+@EqualsAndHashCode
 @Getter
 @Setter
 @ToString
-@EqualsAndHashCode
-@Builder
 public class User {
-    private Long id;
-    private String firstName;
-    private String lastName;
+    private String name;
+    private String surname;
     private Integer age;
+    private String aboutMe;
+    private String login;
+    private String password;
+    private String cookie;
 }
