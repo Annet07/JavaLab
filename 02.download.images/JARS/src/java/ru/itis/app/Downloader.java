@@ -2,39 +2,54 @@ package ru.itis.app;
 
 import java.io.*;
 import java.net.URL;
+import java.net.URLConnection;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class Downloader{
 
-    private InputStream is;
-    private OutputStream os;
+    private final int size = 1584;
+    private byte[] buffer;
+    Queue<InputStream> is;
+    Queue<OutputStream> os;
 
-    public Downloader(URL url, String folder){
+    public Downloader() {
+        buffer = new byte[size];
+        is = new ConcurrentLinkedQueue<>();
+        os = new ConcurrentLinkedQueue<>();
+    }
+
+    public void download(URL url, Path path){
+        int r;
         try {
-            is = url.openStream();
+            is.add(url.openStream());
         } catch (IOException e) {
             throw new IllegalArgumentException();
         }
         try {
-            Path nameFile = Paths.get(url.getFile()).getFileName();
-            Path path = Paths.get(folder, nameFile.toString());
-            os = new FileOutputStream(path.toString());
+            os.add(new FileOutputStream(path.toAbsolutePath().toString()));
         } catch (FileNotFoundException e) {
             throw new IllegalArgumentException();
         }
-    }
-
-    public void download(){
-        byte[] buffer = new byte[1584];
-        int r;
+        InputStream inputStream = is.poll();
+        OutputStream outputStream = os.poll();
         try {
-            while((r = is.read(buffer, 0, 1584)) != -1){
-                os.write(buffer, 0, r);
-                Thread.sleep(50);
+            boolean end = false;
+            while (!end) {
+                synchronized (buffer) {
+                    if ((r = inputStream.read(buffer, 0, size)) != -1) {
+                        outputStream.write(buffer, 0, r);
+                    } else {
+                        end = true;
+                    }
+                }
             }
-        } catch (InterruptedException | IOException e) {
-            throw new IllegalArgumentException();
+            inputStream.close();
+            outputStream.close();
+        }catch (IOException e) {
+            e.printStackTrace();
         }
     }
 }

@@ -1,6 +1,7 @@
 package ru.itis.javalab.servlets;
 
 
+import org.springframework.security.crypto.password.PasswordEncoder;
 import ru.itis.javalab.models.User;
 import ru.itis.javalab.services.UsersService;
 
@@ -19,12 +20,12 @@ import java.util.List;
 public class UsersServlet extends HttpServlet {
 
     private UsersService usersService;
+    private PasswordEncoder passwordEncoder;
 
     @Override
     public void init(ServletConfig config) throws ServletException {
         ServletContext servletContext = config.getServletContext();
         this.usersService = (UsersService) servletContext.getAttribute("usersService");
-
     }
 
     @Override

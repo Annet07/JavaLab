@@ -25,13 +25,6 @@ public class ProfileServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Cookie[] cookies = req.getCookies();
-        for (Cookie cookie: cookies) {
-            if (cookie.getName().equals("cookieValue")) {
-                req.setAttribute("user", usersService.findByCookie(cookie.getValue()));
-                break;
-            }
-        }
         req.getRequestDispatcher("/WEB-INF/jsp/profile.jsp").forward(req,resp);
     }
 
@@ -45,7 +38,7 @@ public class ProfileServlet extends HttpServlet {
                 break;
             }
         }
+        req.getSession().setAttribute("user", null);
         resp.sendRedirect(req.getContextPath()+"/signIn");
-
     }
 }

@@ -9,6 +9,6 @@ public interface UsersRepository extends CrudRepository<User>{
 
     List<User> findAllByAge(int age);
     User getByCookie(String cookie);
-    String checkUserLogAndPas(String login, String password);
+    User checkUserLogAndPas(String login, String password);
 
 }

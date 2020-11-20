@@ -22,7 +22,7 @@ public class UsersRepositoryJdbcImpl implements UsersRepository{
     private static final String SQL_FIND_BY_COOKIE = "select * from USERS where cookie = ?";
 
     //language=SQL
-    private static final String SQL_FIND_BY_LOGIN_AND_PASSWORD = "select * from USERS where login = ? and password = ?";
+    private static final String SQL_FIND_BY_LOGIN = "select * from USERS where login = ?";
 
     private SimpleJdbcTemplate<User> template;
 
@@ -80,8 +80,9 @@ public class UsersRepositoryJdbcImpl implements UsersRepository{
     }
 
     @Override
-    public String checkUserLogAndPas(String login, String password) {
-        return template.query(SQL_FIND_BY_LOGIN_AND_PASSWORD, userRowMapper,login, password).get(0).getCookie();
+    public User checkUserLogAndPas(String login, String password) {
+        return template.query(SQL_FIND_BY_LOGIN, userRowMapper,login).get(0);
+
     }
 
 

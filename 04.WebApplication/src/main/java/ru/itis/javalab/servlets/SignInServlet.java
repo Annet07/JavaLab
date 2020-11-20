@@ -1,5 +1,6 @@
 package ru.itis.javalab.servlets;
 
+import ru.itis.javalab.models.User;
 import ru.itis.javalab.services.UsersService;
 
 import javax.servlet.ServletConfig;

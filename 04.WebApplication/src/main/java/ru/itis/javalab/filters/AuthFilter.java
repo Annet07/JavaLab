@@ -25,16 +25,18 @@ public class AuthFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain filterChain) throws IOException, ServletException {
         HttpServletRequest req = (HttpServletRequest) request;
         HttpServletResponse res = (HttpServletResponse) response;
-        Cookie[] cookies = req.getCookies();
-        boolean flag = false;
-        for (Cookie cookie: cookies) {
-            if (cookie.getName().equals("cookieValue") && usersService.findByCookie(cookie.getValue()) != null) {
-                flag = true;
-                break;
+        if (req.getSession().getAttribute("user") == null) {
+            Cookie[] cookies = req.getCookies();
+            boolean flag = true;
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("cookieValue")) {
+                    req.getSession().setAttribute("user", usersService.findByCookie(cookie.getValue()));
+                    flag = false;
+                    break;
+                }
             }
-        }
-        if(!flag){
-            res.sendRedirect(req.getContextPath()+"/signIn");
+            if (flag) res.sendRedirect(req.getContextPath() + "/signIn");
+            else filterChain.doFilter(request, response);
         }
         else {
             filterChain.doFilter(request, response);

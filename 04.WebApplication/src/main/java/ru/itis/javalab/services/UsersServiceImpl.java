@@ -1,5 +1,6 @@
 package ru.itis.javalab.services;
 
+import org.springframework.security.crypto.password.PasswordEncoder;
 import ru.itis.javalab.models.User;
 import ru.itis.javalab.repositories.UsersRepository;
 
@@ -8,9 +9,11 @@ import java.util.List;
 public class UsersServiceImpl implements UsersService{
 
     private UsersRepository usersRepository;
+    private PasswordEncoder passwordEncoder;
 
-    public UsersServiceImpl(UsersRepository usersRepository){
+    public UsersServiceImpl(UsersRepository usersRepository, PasswordEncoder passwordEncoder) {
         this.usersRepository = usersRepository;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @Override
@@ -30,6 +33,10 @@ public class UsersServiceImpl implements UsersService{
 
     @Override
     public String checkUser(String login, String password) {
-        return usersRepository.checkUserLogAndPas(login,password);
+        User user =  usersRepository.checkUserLogAndPas(login,password);
+        if(passwordEncoder.matches(password, user.getPassword())){
+            return user.getCookie();
+        }
+        return null;
     }
 }

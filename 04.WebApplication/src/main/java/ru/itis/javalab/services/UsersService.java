@@ -9,4 +9,5 @@ public interface UsersService {
     List<User> getAllUsers();
     User findByCookie(String cookie);
     String checkUser(String login, String password);
+
 }

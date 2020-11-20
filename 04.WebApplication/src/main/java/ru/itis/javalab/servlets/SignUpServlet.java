@@ -1,5 +1,6 @@
 package ru.itis.javalab.servlets;
 
+import org.springframework.security.crypto.password.PasswordEncoder;
 import ru.itis.javalab.models.User;
 import ru.itis.javalab.services.UsersService;
 
@@ -18,11 +19,13 @@ import java.util.UUID;
 public class SignUpServlet extends HttpServlet {
 
     private UsersService usersService;
+    private PasswordEncoder passwordEncoder;
 
     @Override
     public void init(ServletConfig config) throws ServletException {
         ServletContext servletContext = config.getServletContext();
         this.usersService = (UsersService) servletContext.getAttribute("usersService");
+        this.passwordEncoder = (PasswordEncoder) servletContext.getAttribute("passwordEncoder");
     }
 
     @Override
@@ -34,6 +37,7 @@ public class SignUpServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String login = req.getParameter("login");
         String password = req.getParameter("password");
+        String hashPassword = passwordEncoder.encode(password);
         String name = req.getParameter("name");
         String surname = req.getParameter("surname");
         Integer age = Integer.parseInt(req.getParameter("age"));
@@ -41,8 +45,8 @@ public class SignUpServlet extends HttpServlet {
         String cookieValue = UUID.randomUUID().toString();
         Cookie cookie = new Cookie("cookieValue", cookieValue);
         resp.addCookie(cookie);
-        User user = User.builder().name(name).surname(surname).age(age).aboutMe(aboutMe).login(login).password(password).cookie(cookieValue).build();
+        User user = User.builder().name(name).surname(surname).age(age).aboutMe(aboutMe).login(login).password(hashPassword).cookie(cookieValue).build();
         usersService.save(user);
-        resp.sendRedirect(req.getContextPath()+"/signIn");
+        resp.sendRedirect(req.getContextPath()+"/profile");
     }
 }

@@ -12,7 +12,7 @@
 </head>
 <body>
 <section>
-    <jsp:useBean id="user" scope="request" type="ru.itis.javalab.models.User"/>
+    <jsp:useBean id="user" scope="session" type="ru.itis.javalab.models.User"/>
     <form method="post">
         <h1>MY PAGE</h1>
         <p> name: ${user.name}</p>
