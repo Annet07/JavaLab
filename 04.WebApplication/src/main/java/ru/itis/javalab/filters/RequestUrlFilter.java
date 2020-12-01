@@ -21,6 +21,8 @@ public class RequestUrlFilter implements Filter {
 
         System.out.println(request.getRequestURI());
 
+        response.setCharacterEncoding("UTF-8");
+        request.setCharacterEncoding("UTF-8");
         filterChain.doFilter(servletRequest, servletResponse);
     }
 

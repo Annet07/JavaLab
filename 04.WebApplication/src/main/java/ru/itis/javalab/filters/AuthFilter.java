@@ -1,5 +1,6 @@
 package ru.itis.javalab.filters;
 
+import org.springframework.context.ApplicationContext;
 import ru.itis.javalab.models.User;
 import ru.itis.javalab.services.UsersService;
 
@@ -8,6 +9,7 @@ import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 @WebFilter("/profile")
@@ -18,7 +20,8 @@ public class AuthFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         ServletContext context = filterConfig.getServletContext();
-        usersService = (UsersService) context.getAttribute("usersService");
+        ApplicationContext applicationContext = (ApplicationContext)context.getAttribute("applicationContext");
+        usersService = applicationContext.getBean(UsersService.class);
     }
 
     @Override
@@ -29,7 +32,8 @@ public class AuthFilter implements Filter {
             Cookie[] cookies = req.getCookies();
             boolean flag = true;
             for (Cookie cookie : cookies) {
-                if (cookie.getName().equals("cookieValue")) {
+                if (cookie.getName().equals("cookieValue")) { ;
+                    User user = usersService.findByCookie(cookie.getValue());
                     req.getSession().setAttribute("user", usersService.findByCookie(cookie.getValue()));
                     flag = false;
                     break;

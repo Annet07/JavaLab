@@ -11,4 +11,6 @@ public interface UsersRepository extends CrudRepository<User>{
     User getByCookie(String cookie);
     User checkUserLogAndPas(String login, String password);
 
+
+
 }

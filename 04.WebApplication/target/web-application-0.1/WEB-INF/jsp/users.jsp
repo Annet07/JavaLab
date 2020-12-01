@@ -1,6 +1,7 @@
-<%@ page import="ru.itis.javalab.models.Student" %>
+<%@ page import="ru.itis.javalab.models.User" %>
 <%@ page import="java.util.List" %>
-<%@ page import="ru.itis.javalab.models.Student" %><%--
+<%@ page import="ru.itis.javalab.models.User" %>
+<%@ page import="ru.itis.javalab.models.User" %><%--
   Created by IntelliJ IDEA.
   User: 79534
   Date: 18.11.2020
@@ -14,7 +15,7 @@
 </head>
 <body>
 <h1 style="color: ${cookie.get("color").value}">USERS</h1>
-<form action="/students" method="post">
+<form action="/users" method="post">
     <select name="color">
         <option value="blueviolet">BLUEVIOLET</option>
         <option value="plum">PLUM</option>
@@ -28,14 +29,14 @@
     <th>LAST NAME</th>
     <th>AGE</th>
     <%
-        List<Student> students = (List<Student>) request.getAttribute("usersForJsp");
-        for(int i = 0; i < students.size(); i++){
+        List<User> users = (List<User>) request.getAttribute("usersForJsp");
+        for(int i = 0; i < users.size(); i++){
     %>
     <tr>
-        <td><%=students.get(i).getId()%></td>
-        <td><%=students.get(i).getFirstName()%></td>
-        <td><%=students.get(i).getLastName()%></td>
-        <td><%=students.get(i).getAge()%></td>
+        <td><%=users.get(i).getCookie()%></td>
+        <td><%=users.get(i).getName()%></td>
+        <td><%=users.get(i).getSurname()%></td>
+        <td><%=users.get(i).getAge()%></td>
     </tr>
         <%}
     %>

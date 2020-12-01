@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="front" class="ru.itis.javalab.front.FrontImpl">
+         <constructor-arg name="usersService" ref="userService"/>
+    </bean>
+    <bean id="userService" class="ru.itis.javalab.services.UsersServiceImpl">
+        <constructor-arg name="mailsService" ref="mailService"/>
+        <constructor-arg name="passwordEncoder" ref="passwordEncoder"/>
+        <constructor-arg name="usersRepository" ref="usersRepository"/>
+    </bean>
+    <bean id="mailService" class="ru.itis.javalab.services.MailsServiceMockImpl"/>
+    <bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+    <bean id="usersRepository" class="ru.itis.javalab.repositories.UsersRepositoryJdbcTemplateImpl">
+        <constructor-arg name="template" ref="jdbcTemplate"/>
+    </bean>
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+        <constructor-arg name="dataSource" ref="dataSource"/>
+    </bean>
+    <bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource">
+        <constructor-arg name="configuration" ref="hikariConfig"/>
+    </bean>
+    <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+        <property name="maximumPoolSize" value="20"/>
+        <property name="password" value="07072001"/>
+        <property name="driverClassName" value="org.postgresql.Driver"/>
+        <property name="username" value="postgres"/>
+        <property name="jdbcUrl" value="jdbc:postgresql://localhost:5432/java_lab_pract_2020"/>
+    </bean>
+
+</beans>

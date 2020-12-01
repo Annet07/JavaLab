@@ -1,0 +1,14 @@
+Hello, Anya, your id is 1,
+
+    Age is undefined
+
+Other users:
+
+    Name: Sabina
+    Age: 20
+    Name: Leonid
+    Age: 19
+    Name: Rasim
+    Age: 19
+    Name: Ekaterina
+    Age: 18
