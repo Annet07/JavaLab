@@ -3,23 +3,13 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
 
-    <filter>
-        <filter-name>urlFilter</filter-name>
-        <filter-class>ru.itis.javalab.filters.RequestUrlFilter</filter-class>
-    </filter>
+    <servlet>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+    </servlet>
     
-    <filter-mapping>
-        <filter-name>urlFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
-
-    <filter>
-        <filter-name>headersFilter</filter-name>
-        <filter-class>ru.itis.javalab.filters.RequestHeadersFilter</filter-class>
-    </filter>
-
-    <filter-mapping>
-        <filter-name>headersFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
+    <servlet-mapping>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
 </web-app>

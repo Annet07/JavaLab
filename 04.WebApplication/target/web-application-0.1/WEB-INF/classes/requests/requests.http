@@ -1,0 +1,11 @@
+GET http://localhost:8080/json/users?page=1&size=3
+
+###
+
+POST http://localhost:8080/users/json
+Content-Type: application/json
+
+{
+  "name": "New user",
+  "surname": "very new"
+}

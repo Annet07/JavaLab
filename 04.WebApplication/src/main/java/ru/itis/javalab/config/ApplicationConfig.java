@@ -11,6 +11,8 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
+import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 import ru.itis.javalab.models.User;
 import ru.itis.javalab.repositories.UsersRepository;
 import ru.itis.javalab.repositories.UsersRepositoryJdbcTemplateImpl;
@@ -53,13 +55,31 @@ public class ApplicationConfig {
     }
 
     @Bean
-    public HikariConfig hikariConfig(){
+    public HikariConfig hikariConfig() {
         HikariConfig hikariConfig = new HikariConfig();
         hikariConfig.setJdbcUrl(environment.getProperty("db.url"));
         hikariConfig.setMaximumPoolSize(Integer.parseInt(environment.getProperty("db.hikari.max-pool-size")));
-        hikariConfig.setDriverClassName(environment.getProperty("db.driver.classname"));
         hikariConfig.setUsername(environment.getProperty("db.username"));
         hikariConfig.setPassword(environment.getProperty("db.password"));
+        hikariConfig.setDriverClassName(environment.getProperty("db.driver.classname"));
         return hikariConfig;
+    }
+
+
+
+    @Bean
+    public FreeMarkerViewResolver freeMarkerViewResolver(){
+        FreeMarkerViewResolver resolver = new FreeMarkerViewResolver();
+        resolver.setPrefix("");
+        resolver.setSuffix(".ftlh");
+        resolver.setContentType("text/html;charset=UTF-8");
+        return resolver;
+    }
+
+    @Bean
+    public FreeMarkerConfigurer freeMarkerConfig(){
+        FreeMarkerConfigurer freeMarkerConfigurer = new FreeMarkerConfigurer();
+        freeMarkerConfigurer.setTemplateLoaderPath("/WEB-INF/ftl/");
+        return freeMarkerConfigurer;
     }
 }

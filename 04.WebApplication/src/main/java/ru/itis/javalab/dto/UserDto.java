@@ -18,6 +18,9 @@ public class UserDto {
     private String surname;
 
     public static UserDto from(User user) {
+        if (user == null){
+            return null;
+        }
         return UserDto.builder()
                 .name(user.getName())
                 .surname(user.getSurname())

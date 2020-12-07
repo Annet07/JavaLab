@@ -30,8 +30,8 @@ public class UsersServiceImpl implements UsersService{
     }
 
     @Override
-    public List<User> getAllUsers() {
-        return usersRepository.findAll();
+    public List<UserDto> getAllUsers() {
+        return UserDto.from(usersRepository.findAll());
     }
 
     @Override
@@ -41,6 +41,11 @@ public class UsersServiceImpl implements UsersService{
         .name(userDto.getName())
         .surname(userDto.getSurname())
         .build());
+    }
+
+    @Override
+    public UserDto getUser(Long userId) {
+        return UserDto.from(usersRepository.findById(userId).orElse(null));
     }
 
     @Override

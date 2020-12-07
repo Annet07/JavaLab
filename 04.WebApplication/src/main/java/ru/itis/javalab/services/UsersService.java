@@ -10,7 +10,8 @@ public interface UsersService {
     List<UserDto> getAllUsers(int page, int size);
     User findByCookie(String cookie);
     String checkUser(String login, String password);
-    List<User> getAllUsers();
+    List<UserDto> getAllUsers();
     void addUser(UserDto userDto);
+    UserDto getUser(Long userId);
 
 }
