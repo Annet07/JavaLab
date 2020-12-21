@@ -16,8 +16,9 @@ public class User {
     private String login;
     private String password;
     private String cookie;
+    private Boolean isDeleted;
 
-    public User(String name, String surname, Integer age, String aboutMe, String login, String password, String cookie) {
+    public User(String name, String surname, Integer age, String aboutMe, String login, String password, String cookie, Boolean isDeleted) {
         this.name = name;
         this.surname = surname;
         this.age = age;
@@ -25,6 +26,7 @@ public class User {
         this.login = login;
         this.password = password;
         this.cookie = cookie;
+        this.isDeleted = isDeleted;
     }
 }
 

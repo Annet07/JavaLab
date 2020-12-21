@@ -1,4 +1,4 @@
-/*
+
 package ru.itis.javalab.old;
 
 
@@ -47,4 +47,4 @@ public class UsersServlet extends HttpServlet {
         response.sendRedirect("/users");
     }
 }
-*/
+
