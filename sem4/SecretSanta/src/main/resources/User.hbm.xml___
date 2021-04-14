@@ -1,0 +1,40 @@
+<!--<?xml version="1.0"?>-->
+<!--<!DOCTYPE hibernate-mapping PUBLIC-->
+<!--        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"-->
+<!--        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">-->
+
+<!--<hibernate-mapping>-->
+<!--    <class name="ru.itis.javalab.hibernate.entity.User" table="account" >-->
+<!--        <id name="id" type="java.lang.Long">-->
+<!--            <generator class="identity"></generator>-->
+<!--        </id>-->
+
+<!--        <property name="name"/>-->
+
+<!--        <property name="surname"/>-->
+
+<!--        <property name="age"/>-->
+
+<!--        <property name="wishes" length="1000"/>-->
+
+<!--        <property name="email"/>-->
+
+<!--        <property name="password"/>-->
+<!--        -->
+<!--        <set name="messages">-->
+<!--            <key column="author_id"/>-->
+<!--            <one-to-many class="ru.itis.javalab.hibernate.entity.Message"/>-->
+<!--        </set>-->
+
+<!--        <set name="rooms" table="account_room">-->
+<!--            <key column="account_id"/>-->
+<!--            <many-to-many column="room_id" class="ru.itis.javalab.hibernate.entity.Room"/>-->
+<!--        </set>-->
+
+<!--        <set name="createdRooms">-->
+<!--            <key column="creator_id"/>-->
+<!--            <one-to-many class="ru.itis.javalab.hibernate.entity.Room"/>-->
+<!--        </set>-->
+
+<!--    </class>-->
+<!--</hibernate-mapping>-->

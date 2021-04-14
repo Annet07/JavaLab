@@ -1,0 +1,23 @@
+<!--<?xml version="1.0"?>-->
+<!--<!DOCTYPE hibernate-mapping PUBLIC-->
+<!--        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"-->
+<!--        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">-->
+
+<!--<hibernate-mapping>-->
+<!--    <class name="ru.itis.javalab.hibernate.entity.Message">-->
+<!--        <id name="id" type="java.lang.Long">-->
+<!--            <generator class="identity"></generator>-->
+<!--        </id>-->
+
+<!--        <property name="text" length="1000"/>-->
+
+<!--        <many-to-one name="author">-->
+<!--            <column name="author_id"/>-->
+<!--        </many-to-one>-->
+
+<!--        <many-to-one name="room">-->
+<!--            <column name="room_id"/>-->
+<!--        </many-to-one>-->
+
+<!--    </class>-->
+<!--</hibernate-mapping>-->
